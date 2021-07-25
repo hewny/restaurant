@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url('background2.jpg');
+    background: url('./background2.jpg');
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
