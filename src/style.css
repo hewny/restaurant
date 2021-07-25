@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background: url('background2.jpg');
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    height: 80px;
+    font-family: 'Lilita One', cursive;
+    font-size: 36px;
+    border-bottom: 2px solid white;
+}
+
+#topnav ul {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 0;
+}
+
+#topnav li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#topnav li:hover {
+    border-bottom: 4px solid white;
+    font-size-adjust: 30%;
+}
+
+#home {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    color: white;
+}
+
+#home button {
+    width: 15vw;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#home button:hover {
+    transform: scale(1.05);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+#menu .menu-item {
+    margin: 20px;
+    width: 30vw;
+    border-bottom: 1px dashed white;
+}
+
+#location {
+    color: white;
+    font-size: 24px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    border-top: 2px solid white;
+    width: 80%;
+    height: 40px;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: white;
+}
